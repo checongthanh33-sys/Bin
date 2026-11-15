@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>thanh 🦁 – Shop acc game uy tín</title>
+<style>
+:root{--bg:#0a0618;--ln:#4a2bb5;--pk:#e040fb;--gd:#ffc83d;--tx:#f3eeff;--mu:#a99bd6;--ok:#2ecc71;--bad:#ff4d5e}
+*{box-sizing:border-box;margin:0;padding:0}
+button,input,select{font:inherit}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:radial-gradient(900px 420px at 50% 0,#3b1a8a77,transparent),var(--bg);color:var(--tx);min-height:100vh}
+a{color:inherit;text-decoration:none}a[onclick]{cursor:pointer}
+.w{max-width:1280px;margin:auto;padding:0 14px}
+header{background:linear-gradient(180deg,#150a3a,#0a0618);border-bottom:1px solid var(--ln)}
+.top{display:flex;align-items:center;gap:16px;padding:10px 0;flex-wrap:wrap}
+.lg{display:flex;align-items:center;gap:10px;cursor:pointer}
+.lg b{font-size:36px;font-style:italic;font-weight:900;line-height:1;background:linear-gradient(180deg,#fff,#b77bff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lg b span,.big span{-webkit-text-fill-color:#fff}
+.lg small{display:block;font-size:12px;letter-spacing:3px;font-style:italic;color:#d9c2ff}
+.sl{flex:1;min-width:210px;font-style:italic;font-weight:800;color:var(--gd);font-size:14px;line-height:1.35}
+.sl em{color:var(--pk)}
+.me{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-weight:700}
+.bal{border:1px solid var(--ln);border-radius:10px;padding:9px 14px;font-weight:800;background:#0d0626;white-space:nowrap}
+.bal i{font-style:normal;color:var(--gd)}
+.bt{border:0;cursor:pointer;border-radius:10px;padding:10px 18px;font-weight:800;font-size:14px;color:#fff;background:linear-gradient(180deg,#9b4dff,#5a1fd1);box-shadow:0 0 14px #8b3dff66;white-space:nowrap}
+.bt:hover{filter:brightness(1.15)}
+.bt.o{background:linear-gradient(180deg,#ffd54a,#ff9a1a);color:#2a1400;box-shadow:0 0 14px #ff9a1a55}
+.bt.g{background:#ffffff1c;box-shadow:none}
+.bt.s{padding:7px 12px;font-size:13px}
+.bt.f{width:100%}
+nav{display:flex;align-items:center;gap:2px;flex-wrap:wrap;padding-bottom:8px}
+nav button{background:none;border:0;color:#e8dcff;font-weight:700;padding:11px 15px;border-radius:10px;cursor:pointer;font-size:15px}
+nav button.on{background:linear-gradient(180deg,#9b4dff,#5a1fd1);box-shadow:0 0 16px #8b3dff88;color:#fff}
+.z{display:inline-flex;align-items:center;gap:8px;border:1px solid #2aa7ff;background:#07204d;border-radius:12px;padding:6px 14px;font-weight:800;font-size:18px}
+.z em{font-style:normal;background:#0068ff;border-radius:50%;padding:6px 5px;font-size:10px}
+nav .z{margin-left:auto}
+main{padding-top:6px;padding-bottom:20px}
+h2{font-size:20px;margin:18px 0 12px}
+.hero{margin:14px 0;border-radius:16px;border:1px solid var(--ln);min-height:220px;display:grid;grid-template-columns:1fr 2fr 1fr;align-items:center;text-align:center;padding:16px;background:radial-gradient(520px 220px at 50% 50%,#7a2cff88,transparent),linear-gradient(90deg,#241060,#0c0624 50%,#4a2208)}
+.gm{font-size:30px;font-weight:900;font-style:italic}
+.gm small{display:block;font-size:12px;letter-spacing:3px;font-style:normal}
+.big{font-size:72px;font-weight:900;font-style:italic;line-height:1;background:linear-gradient(180deg,#fff,#c58bff 60%,#8b3dff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:34px;font-weight:900;font-style:italic;color:#d58bff}
+.tg{letter-spacing:3px;font-style:italic;font-weight:700;margin-top:6px}
+.hf{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-size:13px;margin-top:14px;color:#e8dcff}
+.main{display:grid;grid-template-columns:260px 1fr 300px;gap:14px;align-items:start}
+.pn{background:linear-gradient(180deg,#1a0e40,#110828);border:1px solid var(--ln);border-radius:14px;padding:14px;margin-bottom:14px}
+.pn h3{font-size:16px;margin-bottom:12px}
+.mn button{display:block;width:100%;text-align:left;background:none;border:0;color:#fff;padding:12px;border-radius:8px;font-weight:600;cursor:pointer}
+.mn button.on,.mn button:hover{background:linear-gradient(90deg,#6a2bd9,#3a1a8a)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:12px}
+.cd{background:#0d0626;border:1px solid var(--ln);border-radius:12px;padding:10px;text-align:center}
+.cd .im{height:90px;border-radius:8px;display:grid;place-items:center;font-size:42px;background:radial-gradient(circle at 50% 40%,#7a2cff,#1a0b45 70%)}
+.lq .cd .im{background:radial-gradient(circle at 50% 40%,#c8871a,#2a1405 70%)}
+.cd h4{margin:8px 0 2px;font-size:13px}
+.cd .pr{font-size:20px;font-weight:900;color:var(--gd);margin:4px 0 8px}
+.cd ul{list-style:none;text-align:left;font-size:12px;margin-bottom:10px;color:#e8dcff}
+.cd li:before{content:"✔ ";color:var(--ok)}
+.qr{display:flex;gap:8px;margin:8px 0 16px}.qr input,.qr select{flex:1;min-width:0}
+.fs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:6px 0 10px}
+.fs div{display:flex;align-items:center;gap:12px;border:1px solid var(--ln);border-radius:12px;padding:14px;background:#140b30}
+.fs span{font-size:30px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.wal{margin:18px 0;border-radius:20px;padding:24px;background:linear-gradient(135deg,#7a2cff,#e040fb);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;box-shadow:0 12px 40px #8b3dff55}
+.wal .n{font-size:24px;font-weight:800}.wal .b{font-size:36px;font-weight:900;text-shadow:0 0 18px #fff6}
+label{display:block;font-size:13px;color:var(--mu);margin:12px 0 5px}
+input,select{width:100%;padding:11px 13px;border-radius:10px;border:1px solid var(--ln);background:#0d0626;color:var(--tx);font-size:15px}
+input:focus,select:focus,button:focus-visible{outline:2px solid var(--pk)}
+.mu{color:var(--mu);font-size:13px;margin-top:10px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:9px 8px;border-bottom:1px solid #2c1d66;text-align:left}
+th{color:var(--mu);font-weight:600}.wrap{overflow-x:auto}
+.tag{padding:3px 9px;border-radius:99px;font-size:12px;font-weight:700}
+.pending{background:#ffc83d22;color:var(--gd)}.ok{background:#2ecc7122;color:var(--ok)}.fail{background:#ff4d5e22;color:var(--bad)}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.modal{position:fixed;inset:0;background:#000b;display:none;place-items:center;z-index:50;padding:14px}
+.modal.on{display:grid}.modal .pn{width:100%;max-width:400px;margin:0}
+.tabs{display:flex;gap:6px}.tabs button{flex:1}
+#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#2a1470;border:1px solid var(--pk);padding:11px 18px;border-radius:12px;z-index:99;display:none}
+footer{border-top:1px solid var(--ln);background:#0a0618}
+.ft2{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px;font-size:13px}
+@media(max-width:1000px){.main{grid-template-columns:1fr}}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.gm{display:none}.big{font-size:48px}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="w">
+  <div class="top">
+    <div class="lg" onclick="go('home')"><span style="font-size:38px">👑</span><div><b>thanh <span>🦁</span></b><small>GAMING STORE</small></div></div>
+    <div class="sl">SHOP ACC GAME UY TÍN<br><em>NẠP THẺ - NẠP GAME GIÁ RẺ</em></div>
+    <div class="me" id="me"></div>
+  </div>
+  <nav id="nav"></nav>
+</div></header>
+<main class="w" id="app"></main>
+<footer><div class="w ft2">
+  <div class="lg" onclick="go('home')"><span style="font-size:26px">👑</span><b style="font-size:22px">thanh <span>🦁</span></b></div>
+  <div>© 2026 thanh 🦁. All rights reserved.</div>
+  <div><a onclick="info(0)">Điều Khoản</a> | <a onclick="info(1)">Chính Sách Bảo Mật</a> | <a href="https://zalo.me/0933454413" target="_blank" rel="noopener">Liên Hệ</a></div>
+  <a class="z" href="https://zalo.me/0933454413" target="_blank" rel="noopener"><em>Zalo</em>0933454413</a>
+</div></footer>
+<div class="modal" id="m"><div class="pn" id="mb"></div></div>
+<div id="toast"></div>
+
+<script>
+const AD='checongthanh33@gmail.com',PH='0933454413',K='thanhshop_v2';
+const TIER=['Thường','Hiếm','VIP','Siêu VIP','Huyền Thoại'],PRICE=[49,99,299,499,999];
+const FEAT=[['Skin cơ bản','Phù hợp tân thủ','Bảo hành 7 ngày'],['Nhiều skin đẹp','Rank ổn định','Bảo hành uy tín'],['Nhiều trang phục','Rank tốt','Bảo hành uy tín'],['Nhiều skin hiếm','Rank cao','Bảo hành uy tín'],['Skin cực hiếm','Rank rất cao','Bảo hành uy tín']];
+const PERK=['nhiều skin hiếm','rank cao','nhiều nhân vật/tướng','full trang phục','tài nguyên lớn'];
+const TEL=['Garena','Gosu','Mobifone','Viettel','Vinaphone'],GAME={ff:'Kim cương Free Fire',lq:'Quân huy Liên Quân'};
+const NAV=[['home','🏠 Trang chủ'],['shop','🛒 Mua acc'],['nap','💳 Nạp thẻ'],['game','💎 Nạp game'],['wal','👛 Ví của tôi'],['his','🕘 Lịch sử'],['adm','⚙️ Admin']];
+const TXT=['1) Túi mù trả kết quả ngẫu nhiên theo từng mức giá. 2) Đã mở túi thì không hoàn tiền, acc lỗi được hỗ trợ theo thời hạn bảo hành. 3) Thẻ cào sai mệnh giá hoặc đã sử dụng sẽ không được cộng tiền. 4) Cần hỗ trợ liên hệ Zalo '+PH+'.','Shop chỉ dùng tên, email và số điện thoại để hỗ trợ và giao acc. Tuyệt đối không gửi mật khẩu Garena hay Facebook của bạn cho bất kỳ ai.'];
+const $=id=>document.getElementById(id);
+const fmt=n=>Number(n).toLocaleString('vi-VN')+'đ';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
+const now=()=>new Date().toLocaleString('vi-VN');
+const st=s=>`<span class="tag ${s}">${{pending:'Chờ duyệt',ok:'Thành công',fail:'Thẻ sai'}[s]}</span>`;
+let db={users:[],cards:[],tx:[],ord:[]},me=null,page='home',reg=false,pre={};
+try{db=Object.assign(db,JSON.parse(localStorage.getItem(K)));me=localStorage.getItem(K+'_me')}catch(e){}
+if(!db.users.some(u=>u.email===AD))db.users.push({email:AD,pass:'111111',name:'Admin Thanh',phone:PH,bal:999e9,admin:1});
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(db));me?localStorage.setItem(K+'_me',me):localStorage.removeItem(K+'_me')}catch(e){}};
+const U=()=>db.users.find(u=>u.email===me);
+const tx=(email,d,a)=>db.tx.unshift({email,d,a,t:now()});
+const order=(type,d,a)=>db.ord.unshift({id:Date.now(),email:me,type,d,amt:a,st:'pending',t:now()});
+const toast=m=>{const t=$('toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display='none',2600)};
+const modal=h=>{$('mb').innerHTML=h;$('m').classList.add('on')};
+const closeM=()=>$('m').classList.remove('on');
+$('m').onclick=e=>{if(e.target.id==='m')closeM()};
+const info=i=>modal(`<h3>${i?'Chính sách bảo mật':'Điều khoản'}</h3><p class="mu" style="font-size:14px;line-height:1.6">${TXT[i]}</p><button class="bt f" style="margin-top:14px" onclick="closeM()">Đóng</button>`);
+
+function loginUI(){modal(`<div class="tabs"><button class="bt ${reg?'g':''}" onclick="reg=false;loginUI()">Đăng nhập</button><button class="bt ${reg?'':'g'}" onclick="reg=true;loginUI()">Đăng ký</button></div>${reg?'<label>Tên tài khoản</label><input id="a_n"><label>Số điện thoại</label><input id="a_p" type="tel">':''}<label>Email</label><input id="a_e" type="email"><label>Mật khẩu</label><input id="a_w" type="password"><button class="bt f" style="margin-top:16px" onclick="auth()">${reg?'Tạo tài khoản':'Đăng nhập'}</button>`)}
+function auth(){
+  const e=$('a_e').value.trim().toLowerCase(),w=$('a_w').value;
+  if(!e||!w)return toast('Nhập đủ email và mật khẩu');
+  if(reg){
+    const n=$('a_n').value.trim(),p=$('a_p').value.trim();
+    if(!n||!/^0\d{9}$/.test(p))return toast('Nhập tên và số điện thoại hợp lệ');
+    if(db.users.some(u=>u.email===e))return toast('Email đã được đăng ký');
+    db.users.push({email:e,pass:w,name:n,phone:p,bal:0});
+  }else if(!db.users.some(u=>u.email===e&&u.pass===w))return toast('Sai email hoặc mật khẩu');
+  me=e;save();closeM();render();toast('Xin chào '+U().name);
+}
+function logout(){me=null;save();go('home')}
+function go(p,a){
+  if(['nap','game','wal','his','adm'].includes(p)){if(!me)return loginUI();if(p==='adm'&&!U().admin)return toast('Chỉ dành cho quản trị viên')}
+  pre=a||{};page=p;render();scrollTo(0,0);
+}
+
+const hero=`<div class="hero"><div class="gm" style="color:#ff9a3d">🔥 FREE FIRE</div><div><div class="big">thanh <span>🦁</span></div><div class="sub">GAMING STORE</div><div class="tg">NEXT LEVEL GAMING EXPERIENCE</div><div class="hf"><span>🛡️ An Toàn<br>Bảo Mật</span><span>⚡ Giao Dịch<br>Nhanh Chóng</span><span>🎧 Hỗ Trợ<br>24/7</span></div></div><div class="gm" style="color:#ffc83d">⚔️ LIÊN QUÂN<small>ARENA OF VALOR</small></div></div>`;
+const feat=`<div class="fs">${[['🛡️','Cam Kết<br>Uy Tín 100%'],['🚀','Giao Dịch<br>Siêu Tốc'],['🎁','Nhiều Ưu Đãi<br>Hấp Dẫn'],['🎧','Hỗ Trợ 24/7<br>Qua Zalo']].map(x=>`<div><span>${x[0]}</span><b>${x[1]}</b></div>`).join('')}</div>`;
+const side=()=>`<div class="pn mn"><h3>▦ DANH MỤC DỊCH VỤ</h3>${[['shop','🛒 Mua Acc Free Fire'],['shop','⚔️ Mua Acc Liên Quân'],['nap','💳 Nạp Thẻ Mobifone',"{t:'Mobifone'}"],['nap','🔥 Nạp Thẻ Garena',"{t:'Garena'}"],['game','💎 Nạp Kim Cương FF',"{g:'ff'}"],['game','🛡️ Nạp Quân Huy LQ',"{g:'lq'}"],['nap','👛 Nạp Tiền Vào Ví']].map((x,i)=>`<button class="${i?'':'on'}" onclick="go('${x[0]}',${x[2]||'{}'})">${x[1]}</button>`).join('')}</div><div class="pn" style="text-align:center"><b>HỖ TRỢ NHANH</b><br><br><a class="z" href="https://zalo.me/${PH}" target="_blank" rel="noopener"><em>Zalo</em>${PH}</a><p class="mu">Chat ngay để được hỗ trợ!</p></div>`;
+const panel=(g,t,c)=>`<div class="pn ${c}"><h3>${t}</h3><div class="cards">${PRICE.map((k,i)=>`<div class="cd"><div class="im">${g==='ff'?'🎒':'🛡️'}</div><h4>TÚI MÙ ${g==='ff'?'FREE FIRE':'LIÊN QUÂN'} ${k}K</h4><div class="pr">${k}.000đ</div><ul>${FEAT[i].map(x=>`<li>${x}</li>`).join('')}</ul><button class="bt f s" onclick="buy('${g}',${i})">🛒 MUA NGAY</button></div>`).join('')}</div></div>`;
+const panels=()=>panel('ff','🛒 SHOP ACC FREE FIRE','')+panel('lq','⚔️ SHOP ACC LIÊN QUÂN','lq');
+const quick=()=>`<div class="pn"><h3>💎 NẠP GAME</h3><b>NẠP KIM CƯƠNG FREE FIRE</b><div class="qr"><input id="q1" placeholder="Nhập ID của bạn..."><button class="bt s" onclick="go('game',{g:'ff',id:$('q1').value})">NẠP NGAY ›</button></div><b>NẠP QUÂN HUY LIÊN QUÂN</b><div class="qr"><input id="q2" placeholder="Nhập ID của bạn..."><button class="bt o s" onclick="go('game',{g:'lq',id:$('q2').value})">NẠP NGAY ›</button></div><b>NẠP THẺ CÀO</b><div class="qr"><select id="q3"><option value="">Chọn nhà mạng...</option>${TEL.map(t=>`<option>${t}</option>`).join('')}</select><button class="bt s" onclick="go('nap',{t:$('q3').value})">NẠP NGAY ›</button></div></div>`;
+
+const P={
+home:()=>hero+`<div class="main"><div>${side()}</div><div>${panels()}</div><div>${quick()}</div></div>`+feat,
+shop:()=>panels(),
+nap:()=>{const my=db.cards.filter(c=>c.email===me);return`<h2>💳 Nạp thẻ cào</h2><div class="two"><div class="pn"><label>Loại thẻ</label><select id="c_t">${TEL.map(t=>`<option ${t===pre.t?'selected':''}>${t}</option>`).join('')}</select><label>Mệnh giá</label><select id="c_a">${[10,20,50,100,200,300,500].map(v=>`<option value="${v*1000}">${v}.000đ</option>`).join('')}</select><label>Số seri</label><input id="c_s" inputmode="numeric"><label>Mã thẻ</label><input id="c_c" inputmode="numeric"><button class="bt f" style="margin-top:14px" onclick="sendCard()">NẠP NGAY</button><p class="mu">Chọn sai mệnh giá sẽ mất thẻ. Admin duyệt thủ công và cộng tiền sau ít phút.</p></div><div class="pn"><h3>Thẻ đã gửi</h3><div class="wrap"><table><tr><th>Loại</th><th>Mệnh giá</th><th>Trạng thái</th></tr>${my.map(c=>`<tr><td>${c.telco}</td><td>${fmt(c.amt)}</td><td>${st(c.st)}</td></tr>`).join('')||'<tr><td colspan="3">Chưa gửi thẻ nào</td></tr>'}</table></div></div></div>`},
+game:()=>{const my=db.ord.filter(o=>o.email===me&&o.type==='game');return`<h2>💎 Nạp game</h2><div class="two"><div class="pn"><label>Game</label><select id="g_g"><option value="ff" ${pre.g==='lq'?'':'selected'}>${GAME.ff}</option><option value="lq" ${pre.g==='lq'?'selected':''}>${GAME.lq}</option></select><label>ID người chơi</label><input id="g_i" value="${esc(pre.id||'')}" inputmode="numeric"><label>Gói nạp</label><select id="g_a">${[20,50,100,200,500].map(v=>`<option value="${v*1000}">${v}.000đ</option>`).join('')}</select><button class="bt f" style="margin-top:14px" onclick="sendGame()">NẠP NGAY</button><p class="mu">Trừ vào số dư ví. Admin nạp vào ID của bạn trong ít phút.</p></div><div class="pn"><h3>Đơn đã đặt</h3><div class="wrap"><table><tr><th>Nội dung</th><th>Trạng thái</th></tr>${my.map(o=>`<tr><td>${esc(o.d)}</td><td>${o.st==='done'?st('ok').replace('Thành công','Đã nạp'):st('pending')}</td></tr>`).join('')||'<tr><td colspan="2">Chưa có đơn</td></tr>'}</table></div></div></div>`},
+wal:()=>{const u=U();return`<div class="wal"><div><small>Tài khoản</small><div class="n">${esc(u.name)}${u.admin?' 👑':''}</div><small>${esc(u.email)} • ${esc(u.phone)}</small></div><div style="text-align:right"><small>Số dư</small><div class="b">${fmt(u.bal)}</div><button class="bt o s" onclick="go('nap')">+ Nạp thẻ</button> <button class="bt g s" onclick="go('his')">Lịch sử</button></div></div>`},
+his:()=>{const my=db.tx.filter(x=>x.email===me);return`<h2>🕘 Lịch sử giao dịch</h2><div class="pn wrap"><table><tr><th>Thời gian</th><th>Nội dung</th><th>Số tiền</th></tr>${my.map(x=>`<tr><td>${x.t}</td><td>${esc(x.d)}</td><td class="${x.a>0?'pos':'neg'}">${x.a?(x.a>0?'+':'')+fmt(x.a):'—'}</td></tr>`).join('')||'<tr><td colspan="3">Chưa có giao dịch</td></tr>'}</table></div>`},
+adm:()=>{
+  const C=db.cards.filter(c=>c.st==='pending'),D=db.cards.filter(c=>c.st!=='pending').slice(0,20),O=db.ord.filter(o=>o.st==='pending');
+  const H='<tr><th>Giờ</th><th>Khách</th><th>Loại</th><th>Mệnh giá</th><th>Seri</th><th>Mã thẻ</th><th></th></tr>';
+  const row=(c,a)=>`<tr><td>${c.t}</td><td>${esc(c.name)}<br><small>${esc(c.phone)}</small></td><td>${c.telco}</td><td>${fmt(c.amt)}</td><td><code>${esc(c.serial)}</code></td><td><code>${esc(c.code)}</code></td><td>${a?`<button class="bt s" onclick="dec(${c.id},1)">✔ Duyệt</button> <button class="bt g s" onclick="dec(${c.id},0)">✖ Sai</button>`:st(c.st)}</td></tr>`;
+  return`<h2>⚙️ Thẻ chờ duyệt (${C.length})</h2><div class="pn wrap"><table>${H}${C.map(c=>row(c,1)).join('')||'<tr><td colspan="7">Không có thẻ chờ duyệt</td></tr>'}</table></div><h2>Đơn cần giao / nạp (${O.length})</h2><div class="pn wrap"><table><tr><th>Giờ</th><th>Khách</th><th>Nội dung</th><th></th></tr>${O.map(o=>{const k=db.users.find(u=>u.email===o.email)||{};return`<tr><td>${o.t}</td><td>${esc(k.name||o.email)}<br><small>${esc(k.phone||'')}</small></td><td>${esc(o.d)}</td><td><button class="bt s" onclick="done(${o.id})">✔ Đã xong</button></td></tr>`}).join('')||'<tr><td colspan="4">Không có đơn</td></tr>'}</table></div><h2>Thẻ đã xử lý</h2><div class="pn wrap"><table>${H}${D.map(c=>row(c,0)).join('')||'<tr><td colspan="7">Chưa có</td></tr>'}</table></div>`}
+};
+
+function render(){
+  const u=U();
+  $('nav').innerHTML=NAV.map(([k,l])=>`<button class="${page===k?'on':''}" onclick="go('${k}')">${l}</button>`).join('')+`<a class="z" href="https://zalo.me/${PH}" target="_blank" rel="noopener"><em>Zalo</em>${PH}</a>`;
+  $('me').innerHTML=u?`<a onclick="go('wal')">👤 ${esc(u.name)} ▾</a><div class="bal">🪙 Số dư: <i>${fmt(u.bal)}</i></div><button class="bt" onclick="logout()">Đăng xuất</button>`:`<button class="bt" onclick="loginUI()">Đăng nhập / Đăng ký</button>`;
+  $('app').innerHTML=P[page]();
+}
+function buy(g,i){
+  const u=U();if(!u)return loginUI();
+  const p=PRICE[i]*1000,G=g==='ff'?'Free Fire':'Liên Quân';
+  if(u.bal<p){toast('Số dư không đủ, hãy nạp thẻ');return go('nap')}
+  u.bal-=p;
+  const pr=`Acc ${G} ${TIER[i]} (${PERK[Math.random()*PERK.length|0]}) #${1000+(Math.random()*9000|0)}`,d=`Mở túi mù ${G} ${PRICE[i]}k → ${pr}`;
+  order('bag',d,p);tx(me,d,-p);save();render();
+  modal(`<div style="text-align:center"><div style="font-size:60px">🎉</div><h2 style="margin:6px 0">Chúc mừng!<
